@@ -9,7 +9,7 @@ module.exports = {
 		es6: true,
 		node: true,
 	},
-	plugins: ['svelte3', '@typescript-eslint', 'prettier'],
+	plugins: ['svelte3', '@typescript-eslint'],
 	overrides: [
 		{
 			files: ['*.svelte'],
@@ -32,12 +32,9 @@ module.exports = {
 			rules: {
 				'@typescript-eslint/no-unsafe-call': 0,
 				'@typescript-eslint/no-unsafe-member-access': 0,
-				'prettier/prettier': 'error',
 			},
 		},
 	],
-	rules: {
-		'prettier/prettier': 'error',
-	},
+	rules: {},
 	settings: {},
 }

@@ -6,7 +6,16 @@ module.exports = {
 		[
 			'@snowpack/plugin-run-script',
 			{
-				name: 'Lint Scripts',
+				name: 'Lint Prettier',
+				cmd: 'npm run lint:prettier',
+				watch: 'npm run lint:prettier:watch',
+				output: 'dashboard',
+			},
+		],
+		[
+			'@snowpack/plugin-run-script',
+			{
+				name: 'Lint Eslint',
 				cmd: 'npm run lint:scripts',
 				watch: 'npm run lint:scripts:watch',
 				output: 'dashboard',
@@ -15,9 +24,9 @@ module.exports = {
 		[
 			'@snowpack/plugin-run-script',
 			{
-				name: 'Lint Styles',
-				cmd: 'npm run lint:styles',
-				watch: 'npm run lint:styles:watch',
+				name: 'Lint Stylelint',
+				cmd: 'npm run lint:stylelint',
+				watch: 'npm run lint:stylelint:watch',
 				output: 'dashboard',
 			},
 		],

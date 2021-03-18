@@ -1,0 +1,6 @@
+.idea/
+.history/
+.snowpack/
+.vscode/
+build/
+node_modules/
