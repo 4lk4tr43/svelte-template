@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	let id = 1
 </script>
 

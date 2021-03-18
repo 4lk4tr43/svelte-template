@@ -16,8 +16,8 @@ module.exports = {
 			'@snowpack/plugin-run-script',
 			{
 				name: 'Lint Eslint',
-				cmd: 'npm run lint:scripts',
-				watch: 'npm run lint:scripts:watch',
+				cmd: 'npm run lint:eslint',
+				watch: 'npm run lint:eslint:watch',
 				output: 'dashboard',
 			},
 		],
